@@ -13,6 +13,13 @@ Elle répond aux enfants du monde entier, envoie des messages personnalisés, et
 
 ## 📦 Installation
 
+Tester le bilan manuellement
+
+`bash
+curl -X POST http://localhost:3000/api/bilan \
+  -H "Content-Type: application/json" \
+  -d '{"totalUtilisateurs": 87}'
+`
 ```bash
 git clone https://github.com/ton-utilisateur/noelbot.git
 cd noelbot
