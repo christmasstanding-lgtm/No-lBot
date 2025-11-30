@@ -1,8 +1,10 @@
+const corrigerTexte = require('../correcteur');
 const express = require('express');
 const router = express.Router();
 const nodemailer = require('nodemailer');
 const { InferenceClient } = require('huggingface_hub');
 
+const suggestionsCorrigées = await corrigerTexte(response);
 const EMAIL_DESTINATAIRE = 'atelier.padrenoel@gmail.com';
 const PRIX_PAR_UTILISATEUR = 4.99;
 
