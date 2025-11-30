@@ -1,0 +1,15 @@
+{
+  "name": "noelbot",
+  "version": "1.0.0",
+  "description": "Assistant IA festif et multilingue pour Noël",
+  "main": "backend/serveur.js",
+  "scripts": {
+    "start": "node backend/serveur.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.4",
+    "dotenv": "^16.4.5",
+    "huggingface_hub": "^0.23.3"
+  }
+}
