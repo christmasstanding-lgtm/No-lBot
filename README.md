@@ -18,3 +18,6 @@
 
 👉 Essaie l’application ici :  
 **[No-IBot sur Hugging Face Spaces](https://huggingface.co/spaces/Daou/No-IBot)**
+Festive bot developer.  
+> ✨ Christmas, AI, and creativity in service of a magical world.  
+> 🎁 Hugging Face + GitHub = enchanted solution.
