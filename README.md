@@ -24,3 +24,12 @@ curl -X POST http://localhost:3000/api/bilan \
 git clone https://github.com/ton-utilisateur/noelbot.git
 cd noelbot
 npm install
+## ⚙️ Lancement avec PM2
+
+Pour exécuter NoëlBot en continu avec PM2 :
+
+```bash
+npm install -g pm2
+pm2 start ecosystem.config.js
+pm2 save
+pm2 startup
