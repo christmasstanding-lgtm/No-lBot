@@ -1,35 +1,20 @@
-# 🎅 NoëlBot
+# 🎅 NoëlBot (No-IBot)
 
-**NoëlBot** est une application festive pilotée par l’intelligence artificielle.  
-Elle répond aux enfants du monde entier, envoie des messages personnalisés, et génère un bilan automatique chaque année.
+**NoëlBot** est une application festive pilotée par l’intelligence artificielle. Elle permet d’envoyer un bilan magique chaque 26 décembre au Père Noël, avec des suggestions d’amélioration pour l’année suivante 🎁
+
+---
 
 ## ✨ Fonctionnalités
 
-- Assistant IA multilingue (plus de 30 langues)
-- Réponses personnalisées selon la culture et la langue
-- Envoi d’emails automatiques avec un bilan annuel
-- Bilan final automatique le 26 décembre à minuit
-- Adaptation des prix et devises locales
+- 🤖 Génération d’un message de bilan avec IA (Hugging Face Inference API)
+- ✅ Correction grammaticale automatique
+- 📬 Envoi du message par email avec Nodemailer
+- 🕛 Planification annuelle avec `cron` et `pm2`
+- 🌐 Interface web avec Gradio pour tester l’envoi manuellement
 
-## 📦 Installation
+---
 
-Tester le bilan manuellement
+## 🚀 Démo en ligne
 
-`bash
-curl -X POST http://localhost:3000/api/bilan \
-  -H "Content-Type: application/json" \
-  -d '{"totalUtilisateurs": 87}'
-`
-```bash
-git clone https://github.com/ton-utilisateur/noelbot.git
-cd noelbot
-npm install
-## ⚙️ Lancement avec PM2
-
-Pour exécuter NoëlBot en continu avec PM2 :
-
-```bash
-npm install -g pm2
-pm2 start ecosystem.config.js
-pm2 save
-pm2 startup
+👉 Essaie l’application ici :  
+**[No-IBot sur Hugging Face Spaces](https://huggingface.co/spaces/Daou/No-IBot)**
